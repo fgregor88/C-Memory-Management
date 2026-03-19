@@ -1,0 +1,31 @@
+# Object files
+*.o
+
+# Executables
+*.out
+*.exe
+*.bin
+
+# Libraries
+*.so
+*.a
+*.dll
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Build directories
+build/
+bin/
+obj/
+
+# Make and dependency files
+*.d
+Makefile.local
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
