@@ -62,3 +62,22 @@ int main(){
 }
 ```
 It shows a `for` loop that iterates from 0 to 4 (exclusive of 5) using the post-increment operator `i++`, and a `while` loop that achieves the same iteration count, incrementing a counter variable manually.
+
+### functions
+
+This example demonstrates how to define and use functions in C.
+```C Memory Management/basics/functions/functions.c#L1-12
+#include <stdio.h>
+
+void greeting(char *name);
+
+int main(){
+    greeting("Filip\\n");
+    return 0;
+}
+
+void greeting(char *name){
+    printf("Hello, %s", name);
+}
+```
+It defines a `greeting` function that takes a character pointer (string) as an argument and prints a personalized greeting to the console. The `main` function then calls this `greeting` function.
