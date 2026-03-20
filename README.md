@@ -1,8 +1,12 @@
-# Basic C Examples
+# C Memory Management
+
+This project contains various examples and exercises related to C programming, with a focus on memory management concepts.
+
+## basics
 
 This folder contains simple C programs to illustrate fundamental concepts.
 
-## hello
+### hello
 
 This is a classic "Hello, World!" program.
 ```C Memory Management/basics/hello/hello.c#L1-5
@@ -15,7 +19,7 @@ int main(){
 ```
 It includes the standard input/output library (`stdio.h`) and uses the `printf` function to print the string "hello world" to the console.
 
-## hello_formated
+### hello_formated
 
 This example demonstrates variable declaration, initialization, and formatted output using `printf`.
 ```C Memory Management/basics/hello_formated/hello_formated.c#L1-12
@@ -36,7 +40,7 @@ int main(){
 ```
 It declares an integer (`a`), a float (`x`), a character (`c`), and a character pointer (`str`). It then prints a simple "hello" and a second line showing the values of these variables using format specifiers like `%d` (integer), `%f` (float), `%c` (character), and `%s` (string).
 
-## loops
+### loops
 
 This example demonstrates the usage of `for` and `while` loops in C.
 ```C Memory Management/basics/loops/loops.c#L1-17
