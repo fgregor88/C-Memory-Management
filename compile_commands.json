@@ -1,0 +1,18 @@
+[
+  {
+    "directory": "/Users/filip/Code/bootdev/C Memory Management/basics/unit_tests",
+    "file": "/Users/filip/Code/bootdev/C Memory Management/basics/unit_tests/example_test.c",
+    "command": "clang -Wall -Wextra -std=c11 -I/Users/filip/Code/bootdev/C Memory Management -o example_test.out example_test.c /Users/filip/Code/bootdev/C Memory Management/munit/munit.c",
+    "arguments": [
+      "clang",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-I/Users/filip/Code/bootdev/C Memory Management",
+      "-o",
+      "example_test.out",
+      "example_test.c",
+      "/Users/filip/Code/bootdev/C Memory Management/munit/munit.c"
+    ]
+  }
+]

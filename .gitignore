@@ -10,6 +10,7 @@
 *.so
 *.a
 *.dll
+munit/
 
 # Debug files
 *.dSYM/
@@ -19,6 +20,7 @@
 build/
 bin/
 obj/
+.cache/
 
 # Make and dependency files
 *.d
