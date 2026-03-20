@@ -1,6 +1,6 @@
-hello: hello.c
-	clang -o hello hello.c
+hello.out: hello.c
+	clang -o hello.out hello.c
 run:
-	./hello
+	./hello.out
 clean:
-	rm -f hello
+	rm -f hello.out
