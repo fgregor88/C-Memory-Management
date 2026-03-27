@@ -23,6 +23,9 @@ static MunitResult test_add(const MunitParameter params[], void* user_data) {
     // Test case 4: Zero
     munit_assert_int(add(0, 0), == , 0);
 
+    // Test case 5: Positive 2
+    munit_assert_int(add(1,1), == , 2);
+
     return MUNIT_OK;
 }
 
